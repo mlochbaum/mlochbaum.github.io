@@ -204,3 +204,16 @@ pre {
         }
     }
 }
+
+
+
+/**
+ * Resume rows
+ * These are tables with dates at the right.
+ * Alignment for single-row tables doesn't work in kramdown, so we fix
+ * it with css.
+ */
+.resume-row {
+    width: 100%;
+    td:last-child {text-align: right;}
+}
