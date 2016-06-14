@@ -55,14 +55,17 @@ some other tools for working with sound. Features include a tool for
 reading and writing wave files, a large collection of IIR filters, and
 sound synthesis tools.
 
+Since this is more of a library than an application, documentation is
+provided only in the form of comments in the source files.
+
 ## JScripts
 Various J scripts not large enough to merit an entire repository.
 
 ## vim-earl-grey
 Earl Grey is a compile-to-Javascript language with (in my opinion) a very
 elegant design. I hope to work with it more in the future. This repository
-is a vimscript code for highlighting it. Harder than it sounds, since the
-grammar used from highlighting is far from context-free!
+contains vimscript code for highlighting it. Harder than it sounds, since
+the grammar used for highlighting is far from context-free!
 
 
 # Collaborations
@@ -74,7 +77,7 @@ noted.
 J is my programming language of choice, and I am one of a handful of
 people who work with the source code at the moment. Although J has been
 open source since 2012, various problems made it impossible to contribute
-to the project until much more recently (early 2016).
+to the language until much more recently (early 2016).
 
 ### jsource/jsource
 The official Github mirror of J's source. Most of my contributions should
