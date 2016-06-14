@@ -15,7 +15,25 @@ All code designed and written by me.
 
 ## ILanguage
 I is an experimental (avant-garde, even) programming language inspired by
-J. <!-- TODO -->
+J. I began creating it after the stunning realization that my two favorite
+features of J---rank and forks---were actually the same concept! A paper
+describing this idea, a generalization of what Haskell calls the Functor
+typeclass, is shown
+[in the I repository](https://github.com/mlochbaum/ILanguage/blob/master/doc/BuiltInMapping/BuiltInMapping.pdf).
+It assumes no knowledge of any specific language. The language uses a
+number of other interesting ideas which are described in its documentation
+and guided examples.
+
+Some features of the implementation include
+
+- Memory management implemented with reference counts.
+- A soft-typing framework built into the language. Any type can be a
+  combination of elementary types, in which case values of that type are
+  type-value pairs.
+- A framework for JIT compilation. Currently there is no actual code
+  generation, and function pointers are used. However, many operations,
+  like mapping and reduction with arithmetic operations, are already fast
+  (close to C's speed).
 
 ## JtoLaTeX
 This is a half-compiler, half-preprocessor which creates LaTeX using J
