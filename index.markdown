@@ -13,7 +13,7 @@ to understand.
 
 All code designed and written by me.
 
-## ILanguage
+## ILanguage (C)
 I is an experimental (avant-garde, even) programming language inspired by
 J. I began creating it after the stunning realization that my two favorite
 features of J---rank and forks---were actually the same concept! A paper
@@ -35,7 +35,7 @@ Some features of the implementation include
   like mapping and reduction with arithmetic operations, are already fast
   (close to C's speed).
 
-## JtoLaTeX
+## JtoLaTeX (J)
 This is a half-compiler, half-preprocessor which creates LaTeX using J
 code. It replaces J operations with symbolic counterparts to build a
 syntax tree, and then turns the tree into LaTeX code. A particular design
@@ -49,7 +49,7 @@ calculation, greek and other symbols, and set notation.
 The base code and the more important addons are well-documented in the
 `doc` folder.
 
-## JSound
+## JSound (J)
 These are the utilities I use for music mixing and mastering, as well as
 some other tools for working with sound. Features include a tool for
 reading and writing wave files, a large collection of IIR filters, and
@@ -58,10 +58,10 @@ sound synthesis tools.
 Since this is more of a library than an application, documentation is
 provided only in the form of comments in the source files.
 
-## JScripts
+## JScripts (J)
 Various J scripts not large enough to merit an entire repository.
 
-## vim-earl-grey
+## vim-earl-grey (Vimscript)
 Earl Grey is a compile-to-Javascript language with (in my opinion) a very
 elegant design. I hope to work with it more in the future. This repository
 contains vimscript code for highlighting it. Harder than it sounds, since
@@ -73,7 +73,7 @@ the grammar used for highlighting is far from context-free!
 Projects that I have contributed to significantly. My contributions are
 noted.
 
-## J programming language
+## J programming language (C)
 J is my programming language of choice, and I am one of a handful of
 people who work with the source code at the moment. Although J has been
 open source since 2012, various problems made it impossible to contribute
@@ -91,7 +91,7 @@ source since the build system is nicer, and my changes appear here first.
 Defunct. I keep it around because there are still some changes which I
 have not added to unbox.
 
-## htmllint
+## htmllint (Javascript)
 A school project that I and three other students designed for a class at
 UNC, with input from a small team at IBM. I am now the sole active
 maintainer. This does not mean I want to work in web dev.
@@ -101,12 +101,12 @@ maintainer. This does not mean I want to work in web dev.
 
 Projects that I have changed, but only to a small extent.
 
-## exafmm
+## exafmm (C++)
 A project which aims to unify research on the fast multipole method so
 that variations on the algorithm (in particular, different kernels) are
 easily comparable. I made several modifications to exafmm for my master's
 thesis and am working on merging some of them back in.
 
-## st
+## st (C)
 The terminal I use. The only significant change from the code distributed
 by suckless is the addition of xft font rendering.
