@@ -35,6 +35,29 @@ Some features of the implementation include
   like mapping and reduction with arithmetic operations, are already fast
   (close to C's speed).
 
+## [CrinGraph](https://github.com/mlochbaum/CrinGraph) (Javascript)
+Headphone reviewer Crinacle had measurements of hundreds (like, a lot of
+hundreds) of in-ear monitors with no easy way to put two of them in the
+same graph. I volunteered to make a comparison tool to do just this, and
+it's now a popular feature of an increasingly popular site, with audio
+enthusiasts using the screenshot tool to share nicely labelled
+comparisons on a daily basis. In addition to the README, this project
+has pretty extensive
+[documentation](https://github.com/mlochbaum/CrinGraph/blob/master/Documentation.md)
+which really should stand on its own but you're obviously here to read
+about me so I'll get in a few bullet points worth of bragging that don't
+belong in the docs:
+
+- That smoothing spline's no easy feat. I wrote my own diagonal LDL
+  decomposition and solver. The results are noticeably cleaner and more
+  faithful than typical octave smoothing.
+- Normalizing the headphones requires solving what volume would give you
+  a specific target loudness. How to find this? Newton's method. I took
+  the derivative of ISO 226:2003.
+
+Crinacle helped guide the design, and I also took input from Discord
+user space_wadet, who is a professional UI designer.
+
 ## [JtoLaTeX](https://github.com/mlochbaum/JtoLaTeX) (J)
 This is a half-compiler, half-preprocessor which creates LaTeX using J
 code. It replaces J operations with symbolic counterparts to build a
@@ -46,7 +69,7 @@ very rare to need to add or remove parentheses while using JtoLaTeX.
 Addons provide other utilities like matrix handling, uncertainty
 calculation, greek and other symbols, and set notation.
 
-The base code and the more important addons are well-documented in the
+The base code and the more important addons are well documented in the
 `doc` folder.
 
 ## [JSound](https://github.com/mlochbaum/JSound) (J)
