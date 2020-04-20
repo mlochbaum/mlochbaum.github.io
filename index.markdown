@@ -24,16 +24,14 @@ It assumes no knowledge of any specific language. The language uses a
 number of other interesting ideas which are described in its documentation
 and guided examples.
 
-Some features of the implementation include
+Some features of the implementation include:
 
 - Memory management implemented with reference counts.
 - A soft-typing framework built into the language. Any type can be a
   combination of elementary types, in which case values of that type are
   type-value pairs.
-- A framework for JIT compilation. Currently there is no actual code
-  generation, and function pointers are used. However, many operations,
-  like mapping and reduction with arithmetic operations, are already fast
-  (close to C's speed).
+- JIT compilation targetting x86 directly for pretty large portions of
+  the language.
 
 ## [CrinGraph](https://github.com/mlochbaum/CrinGraph) (Javascript)
 Headphone reviewer Crinacle had measurements of hundreds (like, a lot of
