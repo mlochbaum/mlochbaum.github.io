@@ -9,11 +9,11 @@ projects also have an adequate README file, but these are intended for a
 typical user of the project and may require niche knowledge (e.g. of J)
 to understand.
 
-# Personal projects
+## Personal projects
 
 All code designed and written by me.
 
-## [ILanguage](https://github.com/mlochbaum/ILanguage) (C)
+### [ILanguage](https://github.com/mlochbaum/ILanguage) (C)
 I is an experimental (avant-garde, even) programming language inspired by
 J. I began creating it after the stunning realization that my two favorite
 features of J---rank and forks---were actually the same concept! A paper
@@ -33,7 +33,7 @@ Some features of the implementation include:
 - JIT compilation targetting x86 directly for pretty large portions of
   the language.
 
-## [CrinGraph](https://github.com/mlochbaum/CrinGraph) (Javascript)
+### [CrinGraph](https://github.com/mlochbaum/CrinGraph) (Javascript)
 Headphone reviewer Crinacle had measurements of hundreds (like, a lot of
 hundreds) of in-ear monitors with no easy way to put two of them in the
 same graph. I volunteered to make a comparison tool to do just this, and
@@ -56,7 +56,7 @@ belong in the docs:
 Crinacle helped guide the design, and I also took input from Discord
 user space_wadet, who is a professional UI designer.
 
-## [JtoLaTeX](https://github.com/mlochbaum/JtoLaTeX) (J)
+### [JtoLaTeX](https://github.com/mlochbaum/JtoLaTeX) (J)
 This is a half-compiler, half-preprocessor which creates LaTeX using J
 code. It replaces J operations with symbolic counterparts to build a
 syntax tree, and then turns the tree into LaTeX code. A particular design
@@ -70,7 +70,7 @@ calculation, greek and other symbols, and set notation.
 The base code and the more important addons are well documented in the
 `doc` folder.
 
-## [JSound](https://github.com/mlochbaum/JSound) (J)
+### [JSound](https://github.com/mlochbaum/JSound) (J)
 These are the utilities I use for music mixing and mastering, as well as
 some other tools for working with sound. Features include a tool for
 reading and writing wave files, a large collection of IIR filters, and
@@ -79,55 +79,53 @@ sound synthesis tools.
 Since this is more of a library than an application, documentation is
 provided only in the form of comments in the source files.
 
-## [JScripts](https://github.com/mlochbaum/JScripts) (J)
+### [JScripts](https://github.com/mlochbaum/JScripts) (J)
 Various J scripts not large enough to merit an entire repository.
 
-## [vim-earl-grey](https://github.com/mlochbaum/vim-earl-grey) (Vimscript)
+### [vim-earl-grey](https://github.com/mlochbaum/vim-earl-grey) (Vimscript)
 Earl Grey is a compile-to-Javascript language with (in my opinion) a very
 elegant design. I hope to work with it more in the future. This repository
 contains vimscript code for highlighting it. Harder than it sounds, since
 the grammar used for highlighting is far from context-free!
 
 
-# Collaborations
+## Collaborations
 
 Projects that I have contributed to significantly. My contributions are
 noted.
 
-## J programming language (C)
+### J programming language (C)
 J is my programming language of choice, and I am one of a handful of
 people who work with the source code at the moment. Although J has been
 open source since 2012, various problems made it impossible to contribute
 to the language until much more recently (early 2016).
 
-### [jsource](https://github.com/jsoftware/jsource)
-The official Github mirror of J's source. Most of my contributions should
-appear here eventually.
+- [jsource](https://github.com/jsoftware/jsource): the official Github
+  mirror of J's source. Most of my contributions should appear here
+  eventually.
+- [unbox](https://github.com/iocane/unbox): a fork of the J source code.
+  I prefer to work with it over the official J source since the build
+  system is nicer, and my changes appear here first.
+- [openj/core](https://github.com/mlochbaum/core): defunct. I keep it
+  around because there are still some changes which I have not added to
+  unbox.
 
-### [unbox](https://github.com/iocane/unbox)
-A fork of the J source code. I prefer to work with it over the official J
-source since the build system is nicer, and my changes appear here first.
-
-### [openj/core](https://github.com/mlochbaum/core)
-Defunct. I keep it around because there are still some changes which I
-have not added to unbox.
-
-## [htmllint](https://github.com/htmllint/htmllint) (Javascript)
+### [htmllint](https://github.com/htmllint/htmllint) (Javascript)
 A school project that I and three other students designed for a class at
 UNC, with input from a small team at IBM. I am now the sole active
 maintainer. This does not mean I want to work in web dev.
 
 
-# Forks
+## Forks
 
 Projects that I have changed, but only to a small extent.
 
-## [exafmm](https://github.com/mlochbaum/exafmm) (C++)
+### [exafmm](https://github.com/mlochbaum/exafmm) (C++)
 A project which aims to unify research on the fast multipole method so
 that variations on the algorithm (in particular, different kernels) are
 easily comparable. I made several modifications to exafmm for my master's
 thesis and am working on merging some of them back in.
 
-## [st](https://github.com/mlochbaum/st) (C)
+### [st](https://github.com/mlochbaum/st) (C)
 The terminal I use. The only significant change from the code distributed
 by suckless is the addition of xft font rendering.
