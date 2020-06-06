@@ -17,6 +17,15 @@ title:  "Resume"
 
 |---
 |:-|:-:|-:|
+| **Programming Language Implementor at Dyalog Ltd.** | under Jay Foad, then Morten Kromberg | February 2017--June 2020 |
+{: .resume-row}
+
+Implementation of the Dyalog APL programming language with emphasis on
+performance. Includes development of novel algorithms, design of
+programming language features, and presentation and teaching.
+
+|---
+|:-|:-:|-:|
 | **Programmer at Trill Financial** | | September 2015--March 2016 |
 {: .resume-row}
 
