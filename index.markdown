@@ -13,6 +13,28 @@ to understand.
 
 All code designed and written by me.
 
+### [BQN](https://mlochbaum.github.io/BQN) (BQN, mainly)
+BQN is my second major programming language, driven by the frustration
+that no one seems yet to have built a "sensible"
+[APL](https://en.wikipedia.org/wiki/APL_(programming_language))
+derivative: one that maintains the core array programming ideas but
+accounts for well-understood best practices in array theory and general
+programming language design. K is perhaps the nearest fit aside from the
+unmaintained A+, but it doesn't use multidimensional arrays at all, and
+doesn't make outer scopes visible from inner ones, leaving a lot to be
+desired by these criteria. BQN is not without
+[problems](https://mlochbaum.github.io/BQN/problems.html) but seems to
+do pretty well at the basics.
+
+The BQN implementation uses the array-based compiler paradigm pioneered
+by [Co-dfns](https://github.com/Co-dfns/Co-dfns), extending its scope
+from only the core compiler to scanning, parsing, and code generation as
+well. The documentation is also converted from markdown to HTML using
+similar techniques. Because so much of the language is self-hosted, it
+is very easy to port to new platforms, with the drawback that so many
+implementation layers leads to a very slow runtime (improvements to the
+compiler can probably fix this, with substantial effort).
+
 ### [ILanguage](https://github.com/mlochbaum/ILanguage) (C)
 I is an experimental (avant-garde, even) programming language inspired by
 J. I began creating it after the stunning realization that my two favorite
