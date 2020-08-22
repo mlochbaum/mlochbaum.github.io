@@ -116,22 +116,6 @@ the grammar used for highlighting is far from context-free!
 Projects that I have contributed to significantly. My contributions are
 noted.
 
-### J programming language (C)
-J is my programming language of choice, and I am one of a handful of
-people who work with the source code at the moment. Although J has been
-open source since 2012, various problems made it impossible to contribute
-to the language until much more recently (early 2016).
-
-- [jsource](https://github.com/jsoftware/jsource): the official Github
-  mirror of J's source. Most of my contributions should appear here
-  eventually.
-- [unbox](https://github.com/iocane/unbox): a fork of the J source code.
-  I prefer to work with it over the official J source since the build
-  system is nicer, and my changes appear here first.
-- [openj/core](https://github.com/mlochbaum/core): defunct. I keep it
-  around because there are still some changes which I have not added to
-  unbox.
-
 ### [htmllint](https://github.com/htmllint/htmllint) (Javascript)
 A school project that I and three other students designed for a class at
 UNC, with input from a small team at IBM. I am now the sole active
@@ -141,6 +125,20 @@ maintainer. This does not mean I want to work in web dev.
 ## Forks
 
 Projects that I have changed, but only to a small extent.
+
+### J programming language (C)
+I made some contributions to the J source code around 2016 and have
+since stopped (I am now using BQN rather than J for my own programming
+when possible).
+
+- [jsource](https://github.com/jsoftware/jsource): the official Github
+  mirror of J's source.
+- [unbox](https://github.com/iocane/unbox): a fork of the J source code.
+  I prefer to work with it over the official J source since the build
+  system is nicer, and my changes appear here first.
+- [openj/core](https://github.com/mlochbaum/core): defunct. I keep it
+  around because there are still some changes which I have not added to
+  unbox.
 
 ### [exafmm](https://github.com/mlochbaum/exafmm) (C++)
 A project which aims to unify research on the fast multipole method so
