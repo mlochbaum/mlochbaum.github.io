@@ -23,8 +23,8 @@ programming language design. K is perhaps the nearest fit aside from the
 unmaintained A+, but it doesn't use multidimensional arrays at all, and
 doesn't make outer scopes visible from inner ones, leaving a lot to be
 desired by these criteria. BQN is not without
-[problems](https://mlochbaum.github.io/BQN/problems.html) but seems to
-do pretty well at the basics.
+[problems](https://mlochbaum.github.io/BQN/commentary/problems.html) but
+seems to do pretty well at the basics.
 
 The BQN implementation uses the array-based compiler paradigm pioneered
 by [Co-dfns](https://github.com/Co-dfns/Co-dfns), extending its scope
