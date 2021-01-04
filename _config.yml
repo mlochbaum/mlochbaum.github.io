@@ -6,10 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Marshall Lochbaum on Github
+title: Marshall Lochbaum
 email: mwlochbaum@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A directory for my Github projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mlochbaum.github.io" # the base hostname & protocol for your site
 github_username:  mlochbaum
