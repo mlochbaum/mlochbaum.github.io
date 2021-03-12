@@ -84,6 +84,17 @@ belong in the docs:
 Crinacle helped guide the design, and I also took input from Discord
 user space_wadet, who is a professional UI designer.
 
+### [BQNoise](https://github.com/mlochbaum/BQNoise) (BQN)
+A port of my J [music programming library](#jsound-j) to BQN. It's
+powerful enough for real production work, but fairly slow because key
+features like filters, FFTs, and data encoding are implemented in BQN
+rather than a compiled language.
+
+#### [Music](https://github.com/mlochbaum/Music) (BQN)
+Synthesized music implemented in BQN. Nothing too polished: my more
+serious publications are [on Bandcamp](https://lochbaum.bandcamp.com/)
+and as of 2021 have all been mixed in J.
+
 ### [JtoLaTeX](https://github.com/mlochbaum/JtoLaTeX) (J)
 This is a half-compiler, half-preprocessor which creates LaTeX using J
 code. It replaces J operations with symbolic counterparts to build a
@@ -121,6 +132,13 @@ the grammar used for highlighting is far from context-free!
 
 Projects that I have contributed to significantly. My contributions are
 noted.
+
+### [Singeli](https://github.com/dzaima/singeli) (Java, BQN)
+A domain-specific language designed for building fast array languages.
+Designed in collaboration with [dzaima](https://github.com/dzaima), who
+built an initial Java implementation. I've been working on one in BQN
+that fixes some deficiencies, in particular allowing custom operator
+definitions.
 
 ### [htmllint](https://github.com/htmllint/htmllint) (Javascript)
 A school project that I and three other students designed for a class at
