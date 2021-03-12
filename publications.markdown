@@ -3,6 +3,8 @@ layout: page
 title:  "Publications"
 ---
 
+I have written a large portion of the content on the [APL Wiki](https://aplwiki.com/wiki/Main_Page) in addition to the more formal publications listed below.
+
 I have spoken at various array programming conferences and once even obtained a slot at a functional conference whose organizers were clearly confused.
 - Dyalog 2019: [Tacit Techniques with Dyalog version 18.0 Operators](https://dyalog.tv/Dyalog19/?v=czWC4tjwzOQ) ([zipped slides](https://www.dyalog.com/uploads/conference/dyalog19/presentations/D04_Tacit_Techniques.zip))
 - Dyalog 2019: [Implementing Reduction](https://dyalog.tv/Dyalog19/?v=TqmpSP8Knvg) ([zipped slides](https://www.dyalog.com/uploads/conference/dyalog19/presentations/D09_Implementing_Reduction.zip))
