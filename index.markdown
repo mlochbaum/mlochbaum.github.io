@@ -3,15 +3,11 @@ layout: page
 title:  "Repositories"
 ---
 
-This page is a resume-like overview of my open-source work. It describes
-the purpose of each project and the extent of my contributions. Most
-projects also have an adequate README file, but these are intended for a
-typical user of the project and may require niche knowledge (e.g. of J)
-to understand.
-
-## Personal projects
-
-All code designed and written by me.
+This page is a resume-like overview of my open-source work, describing
+the purpose and the extent of my contributions for selected projects.
+Most of them also have an adequate README file, but these are intended
+for a typical user of the project and may require niche knowledge (e.g.
+of J) to understand.
 
 ### [BQN](https://mlochbaum.github.io/BQN) (BQN, mainly)
 BQN is my second major programming language, driven by the frustration
@@ -35,11 +31,21 @@ is very easy to port to new platforms, with the drawback that so many
 implementation layers leads to a very slow runtime (improvements to the
 compiler can probably fix this, with substantial effort).
 
+#### [bqn-libs](https://github.com/mlochbaum/bqn-libs/)
+Miscellaneous BQN utilities, and the closest thing it has to a standard
+library right now.
+
 #### [BQNcrate](https://mlochbaum.github.io/bqncrate)
 To make learning BQN easier, I cloned Adám Brudzewsky's
 [APLcart](https://github.com/abrudz/aplcart), translating (some of) the
 APL examples to BQN. The website code is all Adám's except for small
 modifications.
+
+### [Singeli](https://github.com/mlochbaum/Singeli) (BQN)
+A domain-specific language for building fast array language algorithms.
+Designed in collaboration with [dzaima](https://github.com/dzaima), who
+built an initial Java implementation. The current implementation is my
+rewrite in BQN.
 
 ### [ILanguage](https://github.com/mlochbaum/ILanguage) (C)
 I is an experimental (avant-garde, even) programming language inspired by
@@ -85,75 +91,39 @@ Crinacle helped guide the design, and I also took input from Discord
 user space_wadet, who is a professional UI designer.
 
 ### [BQNoise](https://github.com/mlochbaum/BQNoise) (BQN)
-A port of my J [music programming library](#jsound-j) to BQN. It's
-powerful enough for real production work, but fairly slow because key
-features like filters, FFTs, and data encoding are implemented in BQN
-rather than a compiled language.
+Utilities for music mixing, mastering, and synthesis in BQN. It's
+powerful enough for real production work, but can be slow-ish because
+key features like filters and FFTs are implemented in BQN rather than a
+compiled language. Documentated only in comments in the source files.
 
 #### [Music](https://github.com/mlochbaum/Music) (BQN)
-Synthesized music implemented in BQN. Nothing too polished: my more
-serious publications are [on Bandcamp](https://lochbaum.bandcamp.com/)
-and as of 2021 have all been mixed in J.
+Synthesized music implemented in the above. Nothing too polished; my
+more serious publications [on Bandcamp](https://lochbaum.bandcamp.com/)
+were all mixed in J up to 2021.
+
+#### [JSound](https://github.com/mlochbaum/JSound) (J)
+The older utilities in J, which I expect to leave behind entirely.
 
 ### [JtoLaTeX](https://github.com/mlochbaum/JtoLaTeX) (J)
-This is a half-compiler, half-preprocessor which creates LaTeX using J
-code. It replaces J operations with symbolic counterparts to build a
-syntax tree, and then turns the tree into LaTeX code. A particular design
-goal is to make the output code look natural even when the input is
-idiomatic J. The converter uses knowledge about order of operations and
-mathematical convention to parenthesize only when necessary, and it is
-very rare to need to add or remove parentheses while using JtoLaTeX.
-Addons provide other utilities like matrix handling, uncertainty
-calculation, greek and other symbols, and set notation.
-
-The base code and the more important addons are well documented in the
-`doc` folder.
-
-### [JSound](https://github.com/mlochbaum/JSound) (J)
-These are the utilities I use for music mixing and mastering, as well as
-some other tools for working with sound. Features include a tool for
-reading and writing wave files, a large collection of IIR filters, and
-sound synthesis tools.
-
-Since this is more of a library than an application, documentation is
-provided only in the form of comments in the source files.
-
-### [JScripts](https://github.com/mlochbaum/JScripts) (J)
-Various J scripts not large enough to merit an entire repository.
-
-### [vim-earl-grey](https://github.com/mlochbaum/vim-earl-grey) (Vimscript)
-Earl Grey is a compile-to-Javascript language with (in my opinion) a very
-elegant design. I hope to work with it more in the future. This repository
-contains vimscript code for highlighting it. Harder than it sounds, since
-the grammar used for highlighting is far from context-free!
-
-
-## Collaborations
-
-Projects that I have contributed to significantly. My contributions are
-noted.
-
-### [Singeli](https://github.com/dzaima/singeli) (Java, BQN)
-A domain-specific language designed for building fast array languages.
-Designed in collaboration with [dzaima](https://github.com/dzaima), who
-built an initial Java implementation. I've been working on one in BQN
-that fixes some deficiencies, in particular allowing custom operator
-definitions.
+The coolest J code I've written, in my opinion: a half-compiler,
+half-preprocessor to create LaTeX using J code. It replaces J operations
+with symbolic counterparts to build a syntax tree, and then turns the
+tree into LaTeX code. A particular design goal is to make the output
+code look natural even when the input is idiomatic J, so it uses
+knowledge about order of operations and mathematical convention to
+parenthesize only when necessary. Addons provide other utilities like
+matrix handling, uncertainty calculation, greek and other symbols, and
+set notation. Base code and the more important addons are well
+documented in the `doc` folder.
 
 ### [htmllint](https://github.com/htmllint/htmllint) (Javascript)
 A school project that I and three other students designed for a class at
-UNC, with input from a small team at IBM. I am now the sole active
-maintainer. This does not mean I want to work in web dev.
-
-
-## Forks
-
-Projects that I have changed, but only to a small extent.
+UNC, with input from a small team at IBM.
 
 ### J programming language (C)
 I made some contributions to the J source code around 2016 and have
 since stopped (I am now using BQN rather than J for my own programming
-when possible).
+when possible). Commits scattered across:
 
 - [jsource](https://github.com/jsoftware/jsource): the official Github
   mirror of J's source.
@@ -163,13 +133,3 @@ when possible).
 - [openj/core](https://github.com/mlochbaum/core): defunct. I keep it
   around because there are still some changes which I have not added to
   unbox.
-
-### [exafmm](https://github.com/mlochbaum/exafmm) (C++)
-A project which aims to unify research on the fast multipole method so
-that variations on the algorithm (in particular, different kernels) are
-easily comparable. I made several modifications to exafmm for my master's
-thesis and am working on merging some of them back in.
-
-### [st](https://github.com/mlochbaum/st) (C)
-The terminal I use. The only significant change from the code distributed
-by suckless is the addition of xft font rendering.
