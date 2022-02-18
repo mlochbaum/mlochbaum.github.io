@@ -11,25 +11,27 @@ of J) to understand.
 
 ### [BQN](https://mlochbaum.github.io/BQN) (BQN, mainly)
 BQN is my second major programming language, driven by the frustration
-that no one seems yet to have built a "sensible"
-[APL](https://en.wikipedia.org/wiki/APL_(programming_language))
-derivative: one that maintains the core array programming ideas but
-accounts for well-understood best practices in array theory and general
-programming language design. K is perhaps the nearest fit aside from the
-unmaintained A+, but it doesn't use multidimensional arrays at all, and
-doesn't make outer scopes visible from inner ones, leaving a lot to be
-desired by these criteria. BQN is not without
-[problems](https://mlochbaum.github.io/BQN/commentary/problems.html) but
-seems to do pretty well at the basics.
+that no one seems to have captured the appeal of
+[APL](https://en.wikipedia.org/wiki/APL_(programming_language)) in a
+modern design with things like closures and namespaces. Some
+[problems](https://mlochbaum.github.io/BQN/commentary/problems.html)
+notwithstanding, I consider BQN a success on these grounds already, and
+it's gathered a small community of users.
 
-The BQN implementation uses the array-based compiler paradigm pioneered
-by [Co-dfns](https://github.com/Co-dfns/Co-dfns), extending its scope
-from only the core compiler to scanning, parsing, and code generation as
-well. The documentation is also converted from markdown to HTML using
-similar techniques. Because so much of the language is self-hosted, it
-is very easy to port to new platforms, with the drawback that so many
-implementation layers leads to a very slow runtime (improvements to the
-compiler can probably fix this, with substantial effort).
+I implemented as much of BQN as practical in the language itself, making
+it easy to port to new platforms. The compiler is array-based, advancing
+the methods used in [Co-dfns](https://github.com/Co-dfns/Co-dfns). I've
+implemented the easy Javascript VM, but a few programmers have taken up
+the challenge of hosting BQN in lower-level languages. The main offline
+implementation, [CBQN](https://github.com/dzaima/CBQN), is
+[dzaima](https://github.com/dzaima)'s work.
+
+I've written all existing documentation, specification, and tutorial,
+including a markdown processor in BQN to build the website and BQN code
+to generate the diagrams. But I must credit
+[razetime](https://github.com/razetime) for all the help... you know,
+the [help](https://mlochbaum.github.io/BQN/help/index.html) pages for
+primitives you get if you right-click one of the symbols buttons.
 
 #### [bqn-libs](https://github.com/mlochbaum/bqn-libs/)
 Miscellaneous BQN utilities, and the closest thing it has to a standard
@@ -37,9 +39,8 @@ library right now.
 
 #### [BQNcrate](https://mlochbaum.github.io/bqncrate)
 To make learning BQN easier, I cloned Adám Brudzewsky's
-[APLcart](https://github.com/abrudz/aplcart), translating (some of) the
-APL examples to BQN. The website code is all Adám's except for small
-modifications.
+[APLcart](https://github.com/abrudz/aplcart), translating many APL
+examples to BQN and adding other snippets.
 
 ### [Singeli](https://github.com/mlochbaum/Singeli) (BQN)
 A domain-specific language for building fast array language algorithms.
