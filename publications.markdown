@@ -5,7 +5,9 @@ title:  "Publications"
 
 I have written a large portion of the content on the [APL Wiki](https://aplwiki.com/wiki/Main_Page) in addition to the more formal publications listed below.
 
-I have spoken at various array programming conferences, and one podcast, and once even obtained a slot at a functional conference whose organizers were clearly confused.
+I have spoken at various array programming conferences, and a few times on the Array Cast podcast, and once even obtained a slot at a functional conference whose organizers were clearly confused.
+- The Array Cast episode 29: [Transpose](https://www.arraycast.com/episodes/episode28-rank-and-leading-axis-gbbpe)
+- The Array Cast episode 28: [Rank and Leading Axis Theory](https://www.arraycast.com/episodes/episode28-rank-and-leading-axis)
 - The Array Cast episode 7: [Marshall Lochbaum and the BQN array language](https://www.arraycast.com/episodes/episode-07-marshall-lochbaum-and-the-bqn-array-language)
 - Dyalog 2019: [Tacit Techniques with Dyalog version 18.0 Operators](https://dyalog.tv/Dyalog19/?v=czWC4tjwzOQ) ([zipped slides](https://www.dyalog.com/uploads/conference/dyalog19/presentations/D04_Tacit_Techniques.zip))
 - Dyalog 2019: [Implementing Reduction](https://dyalog.tv/Dyalog19/?v=TqmpSP8Knvg) ([zipped slides](https://www.dyalog.com/uploads/conference/dyalog19/presentations/D09_Implementing_Reduction.zip))
