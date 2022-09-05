@@ -23,10 +23,10 @@ it easy to port to new platforms. The compiler is array-based, advancing
 the methods used in [Co-dfns](https://github.com/Co-dfns/Co-dfns). I've
 implemented the easy Javascript VM, but a few programmers have taken up
 the challenge of hosting BQN in lower-level languages. The main offline
-implementation, [CBQN](https://github.com/dzaima/CBQN), is
+implementation, [CBQN](https://github.com/dzaima/CBQN), is mostly
 [dzaima](https://github.com/dzaima)'s work.
 
-I've written all existing documentation, specification, and tutorial,
+I've written the documentation, specification, and tutorials,
 including a markdown processor in BQN to build the website and BQN code
 to generate the diagrams. But I must credit
 [razetime](https://github.com/razetime) for all the help... you know,
@@ -72,10 +72,9 @@ Some features of the implementation include:
 Headphone reviewer Crinacle had measurements of hundreds (like, a lot of
 hundreds) of in-ear monitors with no easy way to put two of them in the
 same graph. I volunteered to make a comparison tool to do just this, and
-it's now a popular feature of an increasingly popular site, with audio
-enthusiasts using the screenshot tool to share nicely labelled
-comparisons on a daily basis. In addition to the README, this project
-has pretty extensive
+it's now a popular feature of the site and used by over 20 other
+measurers to share their own data. In addition to the README, this
+project has pretty extensive
 [documentation](https://github.com/mlochbaum/CrinGraph/blob/master/Documentation.md)
 which really should stand on its own but you're obviously here to read
 about me so I'll get in a few bullet points worth of bragging that don't
@@ -92,18 +91,40 @@ Crinacle helped guide the design, and I also took input from Discord
 user space_wadet, who is a professional UI designer.
 
 ### [BQNoise](https://github.com/mlochbaum/BQNoise) (BQN)
-Utilities for music mixing, mastering, and synthesis in BQN. It's
-powerful enough for real production work, but can be slow-ish because
-key features like filters and FFTs are implemented in BQN rather than a
-compiled language. Documentated only in comments in the source files.
+Utilities for music mixing, mastering, and synthesis in BQN. I use it
+for drum tracking and mixing. Documentated only in comments in the
+source files.
 
 #### [Music](https://github.com/mlochbaum/Music) (BQN)
 Synthesized music implemented in the above. Nothing too polished; my
 more serious publications [on Bandcamp](https://lochbaum.bandcamp.com/)
 were all mixed in J up to 2021.
 
+#### [BQN Musician](https://mlochbaum.github.io/BQN-Musician/index.html) (BQN)
+Teaches music using BQN. My intention was to focus on programming
+synthesized music, but so far I've only written some pages on the theory
+of scales.
+
 #### [JSound](https://github.com/mlochbaum/JSound) (J)
-The older utilities in J, which I expect to leave behind entirely.
+The older utilities in J, which I have now left behind.
+
+### Sorting (C, Singeli)
+I've done some research on modern sorting algorithms for CPU-native
+types (that is, integers and floats). I keep notes on
+[this page](https://mlochbaum.github.io/BQN/implementation/primitive/sort.html).
+My main focus is now on
+[Singeli Sort](https://github.com/mlochbaum/SingeliSort), a many-way
+hybrid with the goal of combining the advantages of as many known
+methods as possible. I've also made minor contributions to
+[fluxsort](https://github.com/scandum/fluxsort) and published some
+initial research for Singeli Sort as
+[distribution crumsort](https://github.com/mlochbaum/distcrum).
+
+#### [Robin Hood Sort](https://github.com/mlochbaum/rhsort) (C)
+A new distribution sorting algorithm that beats all other methods I know
+of to sort 1e5 or fewer uniformly random 4-byte elements. Its
+performance gets better or worse based on the clumpiness of the input
+distribution.
 
 ### [JtoLaTeX](https://github.com/mlochbaum/JtoLaTeX) (J)
 The coolest J code I've written, in my opinion: a half-compiler,
