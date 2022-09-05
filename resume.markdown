@@ -17,6 +17,14 @@ title:  "Resume"
 
 |---
 |:-|:-:|-:|
+| **Self-directed** | | June 2020-- |
+{: .resume-row}
+
+Designed, specified, implemented, and documented the BQN programming
+language, working with implementer dzaima.
+
+|---
+|:-|:-:|-:|
 | **Programming Language Implementor at Dyalog Ltd.** | under Jay Foad, then Morten Kromberg | February 2017--June 2020 |
 {: .resume-row}
 
