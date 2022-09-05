@@ -91,14 +91,13 @@ Crinacle helped guide the design, and I also took input from Discord
 user space_wadet, who is a professional UI designer.
 
 ### [BQNoise](https://github.com/mlochbaum/BQNoise) (BQN)
-Utilities for music mixing, mastering, and synthesis in BQN. I use it
-for drum tracking and mixing. Documentated only in comments in the
-source files.
+Utilities for music mixing, mastering, synthesis, and sequencing in
+BQN. Documented only in comments in the source files. My tracks
+[on Bandcamp](https://lochbaum.bandcamp.com/) have been produced in J up
+to 2021 and BQN after.
 
 #### [Music](https://github.com/mlochbaum/Music) (BQN)
-Synthesized music implemented in the above. Nothing too polished; my
-more serious publications [on Bandcamp](https://lochbaum.bandcamp.com/)
-were all mixed in J up to 2021.
+Framework and source for synthesized music.
 
 #### [BQN Musician](https://mlochbaum.github.io/BQN-Musician/index.html) (BQN)
 Teaches music using BQN. My intention was to focus on programming
