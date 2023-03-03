@@ -31,7 +31,7 @@ including a markdown processor in BQN to build the website and BQN code
 to generate the diagrams. But I must credit
 [razetime](https://github.com/razetime) for all the help... you know,
 the [help](https://mlochbaum.github.io/BQN/help/index.html) pages for
-primitives you get if you right-click one of the symbols buttons.
+primitives you get if you middle-click one of the symbols buttons.
 
 #### [bqn-libs](https://github.com/mlochbaum/bqn-libs/)
 Miscellaneous BQN utilities, and the closest thing it has to a standard
