@@ -100,9 +100,7 @@ to 2021 and BQN after.
 Framework and source for synthesized music.
 
 #### [BQN Musician](https://mlochbaum.github.io/BQN-Musician/index.html) (BQN)
-Teaches music using BQN. My intention was to focus on programming
-synthesized music, but so far I've only written some pages on the theory
-of scales.
+Teaches music synthesis and theory using BQN.
 
 #### [JSound](https://github.com/mlochbaum/JSound) (J)
 The older utilities in J, which I have now left behind.
